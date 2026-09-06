@@ -16,7 +16,7 @@ export default function Hero() {
         {/* Eyebrow */}
         <div>
           <span className="section-eyebrow">
-            Accessible Virtual Reality Intervention
+            Culturally Grounded Virtual Reality • Powered by Responsible AI
           </span>
         </div>
 
@@ -58,7 +58,7 @@ export default function Hero() {
                 fontWeight: 400,
               }}
             >
-              Belong is an accessible Mobile VR assistive system designed to bridge the gap between clinical behavioral therapy and everyday Egyptian life. By replacing rigid multiple-choice buttons with unscripted Egyptian Arabic conversations, adolescents practice essential life skills at their own pace in a safe, controlled virtual space.
+              Belong transforms everyday Egyptian spaces into safe, immersive practice grounds. By pairing accessible Mobile VR with unscripted, culturally authentic voice dialogue, Belong empowers autistic adolescents to navigate community life, master daily interactions, and build lasting independence—with zero pressure and built-in clinical safety.
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>

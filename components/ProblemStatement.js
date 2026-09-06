@@ -9,36 +9,42 @@ export default function ProblemStatement() {
       category: "The Economic Barrier",
       title: "High-End VR as an Exclusive Luxury",
       description:
-        "Western therapeutic VR platforms depend on expensive standalone hardware requiring heavy import costs and foreign subscriptions. For families in Egypt and the region, this pricing makes modern immersive intervention virtually out of reach.",
+        "Western therapeutic VR platforms depend on expensive standalone hardware requiring heavy import costs and foreign subscriptions. For families in Egypt and the MENA region, this pricing makes modern immersive intervention virtually out of reach.",
       solutionTitle: "Accessible Mobile VR Deployment",
       solutionDesc:
-        "Belong is specifically optimized to run on standard everyday smartphones paired with accessible Mobile VR headsets—democratizing immersive social practice for families, schools, and local support centers.",
+        "Belong is specifically engineered to run on standard everyday smartphones paired with accessible Mobile VR headsets—democratizing immersive social practice for families, schools, and local support centers across Egypt and the MENA region.",
       accent: "var(--accent-teal)",
       icon: DollarSign,
     },
     {
       num: "02",
-      category: "The Cultural & Linguistic Disconnect",
-      title: "Foreign Settings & Stiff Formal Arabic",
+      category: "Cultural & Linguistic Alienation",
+      title: "Foreign Environments & Western Social Norms",
       description:
-        "Available software places adolescents in Western suburban neighborhoods or utilizes formal Modern Standard Arabic (Fusha). An autistic child cannot translate textbook phrases into the lively, dialect-rich social encounters of daily Egyptian life.",
+        "Existing platforms place youth in foreign American suburban streets, shopping malls, and English-speaking contexts. Autistic youth in Egypt and the Arab world cannot translate foreign social dynamics into the lively, high-density, and dialect-rich realities of local community life.",
       solutionTitle: "Native Egyptian Colloquial Immersion",
       solutionDesc:
-        "Belong is built natively in colloquial Egyptian Arabic (العامية المصرية), immersing learners in authentic cultural spaces: ordering street food, handling local currency, and navigating public transportation.",
+        "Belong is built natively in colloquial Egyptian Arabic (العامية المصرية), immersing youth in authentic local spaces—ordering from sidewalk food carts, managing Egyptian banknotes, signaling microbuses, and reading genuine community social cues.",
       accent: "var(--accent-blue)",
       icon: Globe2,
     },
     {
       num: "03",
-      category: "The Static Script Trap",
-      title: "Rigid Multiple-Choice Memorization",
+      category: "The Rigid Script Trap vs. Responsible AI",
+      title: "Beyond Static Scripts: Safe, Adaptive Conversational AI",
       description:
-        "Most educational tools force users into pre-written branching trees where virtual characters only accept fixed button choices. Learners end up memorizing arbitrary sequences without experiencing true conversational give-and-take.",
-      solutionTitle: "Unscripted, Adaptive Dialogue",
+        "Traditional digital tools force autistic youth into rigid multiple-choice buttons and predetermined branching sequences. Memorizing robotic scripts fails to prepare learners for real-life conversations, where dialogue is fluid, spontaneous, and unpredictable.",
+      solutionTitle: "Unscripted Interaction Grounded in Responsible AI",
       solutionDesc:
-        "Social characters engage in spontaneous, context-aware dialogues. Users speak freely into the headset microphone, learning natural conversational turn-taking, asking questions, and recovering from pauses.",
+        "Belong replaces fixed scripts with unscripted, natural voice dialogue powered by conversational intelligence. Crucially, the system is governed by strict Responsible AI safeguards—ensuring child privacy, non-judgmental acceptance, sensory safety, transparent feedback, and human-in-the-loop oversight to nurture genuine confidence without clinical risk.",
       accent: "var(--accent-warm)",
       icon: Bot,
+      responsibleAiPillars: [
+        "Privacy & Child Safety",
+        "Human Control & Oversight",
+        "Fairness & Non-Discrimination",
+        "Sensory & Emotional Safeguards",
+      ],
     },
   ];
 
@@ -48,13 +54,13 @@ export default function ProblemStatement() {
         {/* Section Header */}
         <div style={{ marginBottom: "3.5rem" }}>
           <span className="section-eyebrow">
-            Why Virtual Reality Intervention Matters
+            The Belong Advantage
           </span>
           <h2 className="section-title">
-            Overcoming the barriers in modern assistive technology.
+            Where existing therapeutic VR falls short—and how Belong changes the game.
           </h2>
           <p className="section-description">
-            Traditional behavioral therapy and foreign VR platforms struggle to prepare Egyptian neurodivergent adolescents for everyday community autonomy.
+            While conventional VR platforms demonstrate clinical promise, they remain economically inaccessible, culturally foreign, and bound to rigid decision trees. Belong dismantles these barriers.
           </p>
         </div>
 
@@ -101,26 +107,42 @@ export default function ProblemStatement() {
                     >
                       [{item.num}] {item.category}
                     </span>
+                    <div
+                      style={{
+                        width: "36px",
+                        height: "36px",
+                        borderRadius: "8px",
+                        backgroundColor: "var(--bg-subtle)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: item.accent,
+                      }}
+                    >
+                      <Icon size={18} />
+                    </div>
                   </div>
 
-                  {/* Problem Description */}
+                  {/* Problem Title & Text */}
                   <h3
                     style={{
-                      fontSize: "1.4rem",
+                      fontSize: "1.35rem",
                       fontWeight: 700,
                       lineHeight: 1.3,
                       marginBottom: "0.85rem",
                       color: "var(--text-primary)",
+                      letterSpacing: "-0.01em",
                     }}
                   >
                     {item.title}
                   </h3>
+
                   <p
                     style={{
-                      fontSize: "0.95rem",
+                      fontSize: "0.93rem",
                       color: "var(--text-secondary)",
                       lineHeight: 1.65,
-                      marginBottom: "2rem",
+                      marginBottom: "1.75rem",
                     }}
                   >
                     {item.description}
@@ -165,6 +187,38 @@ export default function ProblemStatement() {
                   >
                     {item.solutionDesc}
                   </p>
+
+                  {/* Responsible AI Pillars Strip for Card 3 */}
+                  {item.responsibleAiPillars && (
+                    <div
+                      style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "0.4rem",
+                        marginTop: "0.85rem",
+                        paddingTop: "0.75rem",
+                        borderTop: "1px solid var(--border-light)",
+                      }}
+                    >
+                      {item.responsibleAiPillars.map((pillar, pIdx) => (
+                        <span
+                          key={pIdx}
+                          style={{
+                            fontSize: "0.72rem",
+                            fontFamily: "var(--font-mono)",
+                            padding: "0.2rem 0.5rem",
+                            borderRadius: "4px",
+                            backgroundColor: "var(--bg-surface)",
+                            border: "1px solid var(--border-medium)",
+                            color: "var(--text-secondary)",
+                            fontWeight: 600,
+                          }}
+                        >
+                          ✓ {pillar}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             );

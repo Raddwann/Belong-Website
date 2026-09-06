@@ -16,7 +16,7 @@ export default function Hero() {
         {/* Eyebrow */}
         <div>
           <span className="section-eyebrow">
-            Culturally Grounded Virtual Reality • Powered by Responsible AI
+            Culturally Grounded Virtual Reality
           </span>
         </div>
 

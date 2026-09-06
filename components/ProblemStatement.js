@@ -9,16 +9,22 @@ export default function ProblemStatement() {
       category: "The Economic Barrier",
       title: "High-End VR as an Exclusive Luxury",
       description:
-        "Western therapeutic VR platforms depend on expensive standalone hardware requiring heavy import costs and foreign subscriptions. For families in Egypt and the MENA region, this pricing makes modern immersive intervention virtually out of reach.",
+        "Western therapeutic VR platforms depend on expensive standalone hardware requiring heavy import tariffs and foreign subscriptions. For families across Egypt and the MENA region, this pricing makes modern immersive intervention virtually out of reach.",
       solutionTitle: "Accessible Mobile VR Deployment",
       solutionDesc:
         "Belong is specifically engineered to run on standard everyday smartphones paired with accessible Mobile VR headsets—democratizing immersive social practice for families, schools, and local support centers across Egypt and the MENA region.",
       accent: "var(--accent-teal)",
       icon: DollarSign,
+      highlights: [
+        "Everyday Smartphones",
+        "Zero Import Tariffs",
+        "90%+ Cost Reduction",
+        "MENA Scalable",
+      ],
     },
     {
       num: "02",
-      category: "Cultural & Linguistic Alienation",
+      category: "Cultural & Linguistic Disconnect",
       title: "Foreign Environments & Western Social Norms",
       description:
         "Existing platforms place youth in foreign American suburban streets, shopping malls, and English-speaking contexts. Autistic youth in Egypt and the Arab world cannot translate foreign social dynamics into the lively, high-density, and dialect-rich realities of local community life.",
@@ -27,32 +33,38 @@ export default function ProblemStatement() {
         "Belong is built natively in colloquial Egyptian Arabic (العامية المصرية), immersing youth in authentic local spaces—ordering from sidewalk food carts, managing Egyptian banknotes, signaling microbuses, and reading genuine community social cues.",
       accent: "var(--accent-blue)",
       icon: Globe2,
+      highlights: [
+        "Colloquial Arabic (عامية)",
+        "Authentic Cairo Contexts",
+        "Egyptian Banknotes",
+        "Zero Cultural Friction",
+      ],
     },
     {
       num: "03",
-      category: "The Rigid Script Trap vs. Responsible AI",
-      title: "Beyond Static Scripts: Safe, Adaptive Conversational AI",
+      category: "The Rigid Script Trap vs. Adaptive AI",
+      title: "Beyond Static Scripts: Safe, Adaptive AI",
       description:
         "Traditional digital tools force autistic youth into rigid multiple-choice buttons and predetermined branching sequences. Memorizing robotic scripts fails to prepare learners for real-life conversations, where dialogue is fluid, spontaneous, and unpredictable.",
-      solutionTitle: "Unscripted Interaction Grounded in Responsible AI",
+      solutionTitle: "Unscripted Voice Grounded in Responsible AI",
       solutionDesc:
-        "Belong replaces fixed scripts with unscripted, natural voice dialogue powered by conversational intelligence. Crucially, the system is governed by strict Responsible AI safeguards—ensuring child privacy, non-judgmental acceptance, sensory safety, transparent feedback, and human-in-the-loop oversight to nurture genuine confidence without clinical risk.",
+        "Belong replaces fixed scripts with unscripted, natural voice dialogue powered by conversational intelligence. Crucially, the system is governed by strict Responsible AI safeguards—ensuring child privacy, sensory safety, non-judgmental acceptance, and human oversight without clinical risk.",
       accent: "var(--accent-warm)",
       icon: Bot,
-      responsibleAiPillars: [
+      highlights: [
         "Privacy & Child Safety",
-        "Human Control & Oversight",
-        "Fairness & Non-Discrimination",
-        "Sensory & Emotional Safeguards",
+        "Human Oversight",
+        "Sensory Safeguards",
+        "Non-Judgmental Acceptance",
       ],
     },
   ];
 
   return (
-    <section id="reality" style={{ padding: "5.5rem 0", backgroundColor: "transparent" }}>
+    <section id="reality" style={{ padding: "4rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll">
         {/* Section Header */}
-        <div style={{ marginBottom: "3.5rem" }}>
+        <div style={{ marginBottom: "3rem" }}>
           <span className="section-eyebrow">
             The Belong Advantage
           </span>
@@ -82,10 +94,10 @@ export default function ProblemStatement() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  justifyContent: "space-between",
+                  height: "100%",
                 }}
               >
-                <div>
+                <div style={{ marginBottom: "1.25rem" }}>
                   {/* Top Bar */}
                   <div
                     style={{
@@ -142,7 +154,7 @@ export default function ProblemStatement() {
                       fontSize: "0.93rem",
                       color: "var(--text-secondary)",
                       lineHeight: 1.65,
-                      marginBottom: "1.75rem",
+                      margin: 0,
                     }}
                   >
                     {item.description}
@@ -156,6 +168,7 @@ export default function ProblemStatement() {
                     border: "1px solid var(--border-light)",
                     borderRadius: "10px",
                     padding: "1.25rem",
+                    marginTop: "auto",
                   }}
                 >
                   <div
@@ -188,8 +201,8 @@ export default function ProblemStatement() {
                     {item.solutionDesc}
                   </p>
 
-                  {/* Responsible AI Pillars Strip for Card 3 */}
-                  {item.responsibleAiPillars && (
+                  {/* Highlights Strip */}
+                  {item.highlights && (
                     <div
                       style={{
                         display: "flex",
@@ -200,9 +213,9 @@ export default function ProblemStatement() {
                         borderTop: "1px solid var(--border-light)",
                       }}
                     >
-                      {item.responsibleAiPillars.map((pillar, pIdx) => (
+                      {item.highlights.map((highlight, hIdx) => (
                         <span
-                          key={pIdx}
+                          key={hIdx}
                           style={{
                             fontSize: "0.72rem",
                             fontFamily: "var(--font-mono)",
@@ -214,7 +227,7 @@ export default function ProblemStatement() {
                             fontWeight: 600,
                           }}
                         >
-                          ✓ {pillar}
+                          ✓ {highlight}
                         </span>
                       ))}
                     </div>

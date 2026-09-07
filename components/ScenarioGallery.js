@@ -106,13 +106,13 @@ export default function ScenarioGallery() {
       difficulty: "Dynamic Conversational Adaptation",
       milestones: [
         "Initiate polite greeting («مساء النور / صباح الخير يا باشا»)",
-        "State food choice and specify sandwich preferences (hot oil, tahina)",
-        "Respond to vendor questions regarding order details",
-        "Conclude exchange and settle payment smoothly",
+        "Engage in unscripted voice dialogue—converse naturally without static scripts or robotic choices",
+        "State food choices and customize sandwich preferences freely with the vendor",
+        "Respond to spontaneous vendor questions and settle payment comfortably",
       ],
       context:
-        "The quintessential Egyptian morning ritual. Learners step up to a street food cart on a sidewalk in Cairo. They practice greeting, ordering, customizing ingredients, and conversing naturally with the social character who listens without haste.",
-      interaction: "Voice Dialogue + Gaze-Activated Assistant Guidance",
+        "The quintessential Egyptian morning ritual. Learners step up to a street food cart on a sidewalk in Cairo. Powered by conversational AI, users converse freely with the vendor in unscripted colloquial dialogue, practicing ordering, asking questions, and handling natural conversational turns at their own pace without judgment.",
+      interaction: "Unscripted AI Voice Dialogue + Gaze Assistant Guidance",
     },
     {
       id: "currency-wallet",
@@ -123,14 +123,14 @@ export default function ScenarioGallery() {
       category: "Financial Autonomy & Math Skills",
       difficulty: "Practical Transaction Skills",
       milestones: [
-        "Identify realistic Egyptian Pound banknotes (10, 20, 50 LE)",
-        "Calculate transaction total from vendor quotation",
-        "Select correct bills from interactive 3D leather wallet",
-        "Complete physical transaction with vendor confirmation",
+        "Identify realistic Egyptian Pound banknotes (10, 20, 50 LE) in 3D space",
+        "Hold unscripted conversational transactions—ask prices, verify totals, and clarify change",
+        "Select correct bills from interactive 3D leather wallet without time pressure",
+        "Complete physical transaction with dynamic vendor voice confirmation",
       ],
       context:
-        "Handling money independently is fundamental for daily autonomy. Belong renders realistic Egyptian currency notes inside an interactive wallet. Users inspect, count, and tender the exact amounts, overcoming real-world monetary anxiety in a safe space.",
-      interaction: "3D Spatial Wallet + Raycast Banknote Selection",
+        "Handling money independently is fundamental for daily autonomy. Belong renders realistic Egyptian currency notes inside an interactive wallet while enabling unscripted voice interaction with the merchant—letting learners ask prices, count funds, and overcome real-world monetary anxiety in a safe, unhurried space.",
+      interaction: "Unscripted Merchant Voice Dialogue + 3D Spatial Wallet",
     },
     {
       id: "supermarket",
@@ -141,14 +141,14 @@ export default function ScenarioGallery() {
       category: "Retail Navigation & Sensory Habituation",
       difficulty: "Visual Search & Checkout",
       milestones: [
-        "Navigate visually dense grocery store aisles",
-        "Read price tags («سناك - السعر 15 جنيه»)",
-        "Utilize gaze reticle countdown to select products",
-        "Interact with cashier at the checkout counter",
+        "Navigate visually dense grocery store aisles at a self-determined pace",
+        "Read local price tags and utilize gaze reticle countdown for product selection",
+        "Engage in unscripted, dynamic voice interaction with the cashier at checkout",
+        "Freely ask questions about item availability without rigid multiple-choice buttons",
       ],
       context:
-        "Supermarkets frequently provoke sensory overload for neurodiverse individuals due to crowded aisles and bright lighting. Belong provides a calibrated environment where adolescents practice locating items and completing checkout at a comfortable pace.",
-      interaction: "Gaze Dwell Reticle (Hands-free selection) + Cashier Speech",
+        "Supermarkets frequently provoke sensory overload for neurodiverse individuals due to crowded aisles and bright lighting. Belong provides a calibrated environment where adolescents practice locating items and communicating unscripted with the cashier—giving users complete freedom to talk naturally rather than following static prompts.",
+      interaction: "Unscripted Cashier Dialogue + Gaze Dwell Reticle",
     },
     {
       id: "microbus",
@@ -159,14 +159,14 @@ export default function ScenarioGallery() {
       category: "Urban Commuting & Public Safety",
       difficulty: "Urban Spatial Awareness",
       milestones: [
-        "Locate pedestrian zebra crossings in urban street settings",
-        "Identify microbuses and transit route designations",
-        "Signal the driver using standard community hand gestures",
-        "Confirm destination in everyday transit dialect",
+        "Locate pedestrian zebra crossings and manage urban street awareness",
+        "Identify transit route designations and signal the microbus driver",
+        "Communicate destinations and fares in unscripted, authentic Cairo street dialect",
+        "Handle spontaneous passenger interactions and driver responses without pressure",
       ],
       context:
-        "Microbuses represent the primary public transit system in Egyptian cities. Navigating busy transit stops can be overwhelming. This scenario trains adolescents to safely cross the street, signal drivers calmly, and communicate destinations with confidence.",
-      interaction: "Spatial Audio Head Tracking + Pedestrian Safety Cues",
+        "Microbuses represent the primary public transit system in Egyptian cities. Navigating busy transit stops can be overwhelming. In Belong, adolescents talk directly to drivers and passengers in fluid, unscripted Arabic—learning to ask routes, confirm stops, and respond to unpredictable transit exchanges with confidence.",
+      interaction: "Unscripted Transit Voice Dialogue + Spatial Head Tracking",
     },
     {
       id: "school-canteen",
@@ -177,14 +177,14 @@ export default function ScenarioGallery() {
       category: "Peer Communication & School Life",
       difficulty: "Social Proximity Dynamics",
       milestones: [
-        "Approach classmate groups gathered in courtyard benches",
-        "Initiate casual conversation during school recess",
-        "Participate in group recreation (courtyard basketball)",
-        "Order snacks independently at the canteen window",
+        "Approach classmate groups gathered in courtyard benches with comfortable pacing",
+        "Initiate unscripted peer conversations—bantering freely without robotic script constraints",
+        "Practice spontaneous back-and-forth dialogue and reading conversational cues",
+        "Order snacks independently at the canteen window through natural voice interaction",
       ],
       context:
-        "School courtyards during break are vibrant but socially complex. In Belong, adolescents practice approaching peer groups, respecting personal space, initiating casual dialogue, and placing their own orders at the busy canteen window.",
-      interaction: "Proximity Trigger + Peer Conversational Turns",
+        "School courtyards during break are vibrant but socially complex. In Belong, adolescents practice approaching peer groups and chatting with classmates through open-ended, unscripted voice dialogue—allowing them to express themselves naturally, make social missteps safely, and discover their own conversational rhythm.",
+      interaction: "Unscripted Peer Conversational Turns + Proximity Trigger",
     },
   ];
 
@@ -199,10 +199,10 @@ export default function ScenarioGallery() {
             In-App Learning Environments
           </span>
           <h2 className="section-title">
-            Five culturally localized training scenarios.
+            Culturally localized training scenarios.
           </h2>
           <p className="section-description">
-            Each scenario simulates authentic Egyptian urban spaces, everyday conversational vocabulary, and tangible life milestones.
+            Each scenario simulates authentic Egyptian urban spaces, everyday conversational vocabulary, and unscripted voice interactions.
           </p>
         </div>
 

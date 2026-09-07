@@ -16,7 +16,7 @@ export default function Hero() {
         {/* Eyebrow */}
         <div>
           <span className="section-eyebrow">
-            Culturally Grounded Virtual Reality
+            AI-Powered VR for Autism & Social Independence
           </span>
         </div>
 
@@ -58,7 +58,7 @@ export default function Hero() {
                 fontWeight: 400,
               }}
             >
-              Belong transforms everyday Egyptian spaces into safe, immersive practice grounds. By pairing accessible Mobile VR with unscripted, culturally authentic voice dialogue, Belong empowers autistic adolescents to navigate community life, master daily interactions, and build lasting independence—with zero pressure and built-in clinical safety.
+              Belong transforms everyday Egyptian spaces into safe, immersive practice grounds. Built as an AI-powered VR experience running on accessible mobile headsets, Belong pairs unscripted, culturally authentic voice dialogue with real-world environments—empowering autistic adolescents to navigate community life, master daily interactions, and build lasting independence with zero pressure and built-in clinical safety.
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>

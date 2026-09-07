@@ -21,7 +21,7 @@ export default function TeamSection() {
   ];
 
   return (
-    <section id="creators" style={{ padding: "5.5rem 0", backgroundColor: "transparent" }}>
+    <section id="creators" style={{ padding: "2.5rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll">
         {/* Section Header */}
         <div style={{ marginBottom: "3.5rem" }}>

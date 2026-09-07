@@ -191,7 +191,7 @@ export default function ScenarioGallery() {
   const current = scenarios[activeScenario];
 
   return (
-    <section id="scenarios" style={{ padding: "5.5rem 0", backgroundColor: "transparent" }}>
+    <section id="scenarios" style={{ padding: "2.5rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll">
         {/* Section Header */}
         <div style={{ marginBottom: "3rem" }}>

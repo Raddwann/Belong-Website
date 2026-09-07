@@ -61,7 +61,7 @@ export default function ProblemStatement() {
   ];
 
   return (
-    <section id="reality" style={{ padding: "4.5rem 0", backgroundColor: "transparent" }}>
+    <section id="reality" style={{ padding: "2.5rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll">
         {/* Narrative Block: The Suffer -> The Gap -> The Transition */}
         <div

@@ -4,7 +4,7 @@ import { MessageCircle, Sparkles, Volume2, Shield, Eye, HeartHandshake } from "l
 
 export default function DualAgentSection() {
   return (
-    <section id="companions" style={{ padding: "5.5rem 0", backgroundColor: "transparent" }}>
+    <section id="companions" style={{ padding: "2.5rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll">
         {/* Section Header */}
         <div style={{ marginBottom: "3.5rem" }}>

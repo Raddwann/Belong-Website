@@ -56,7 +56,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" style={{ padding: "5.5rem 0", backgroundColor: "transparent" }}>
+    <section id="contact" style={{ padding: "2.5rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll" style={{ maxWidth: "840px" }}>
         {/* Section Header */}
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>

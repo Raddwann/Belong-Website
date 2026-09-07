@@ -7,8 +7,8 @@ export default function Hero() {
   return (
     <section
       style={{
-        paddingTop: "calc(var(--nav-height) + 3.5rem)",
-        paddingBottom: "4.5rem",
+        paddingTop: "calc(var(--nav-height) + 2rem)",
+        paddingBottom: "2.5rem",
         backgroundColor: "transparent",
       }}
     >

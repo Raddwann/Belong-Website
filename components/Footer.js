@@ -10,7 +10,7 @@ export default function Footer() {
       style={{
         backgroundColor: "var(--bg-surface)",
         borderTop: "1px solid var(--border-light)",
-        padding: "4.5rem 0 3rem",
+        padding: "3rem 0 2rem",
       }}
     >
       <div className="container">

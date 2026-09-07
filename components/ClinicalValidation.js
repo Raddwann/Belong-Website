@@ -31,7 +31,7 @@ export default function ClinicalValidation() {
   ];
 
   return (
-    <section id="clinical" style={{ padding: "5.5rem 0", backgroundColor: "transparent" }}>
+    <section id="clinical" style={{ padding: "2.5rem 0", backgroundColor: "transparent" }}>
       <div className="container animate-on-scroll">
         {/* Section Header */}
         <div style={{ marginBottom: "3.5rem" }}>
